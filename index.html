@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter | Ala-Too</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="theme-toggle" class="theme-switcher">🌙</button>
+
+    <div class="main-container">
+      <header>
+        <h1>Currency Converter</h1>
+        <p>
+          Check live rates, set rate alerts, receive notifications and more.
+        </p>
+      </header>
+
+      <div class="converter-card">
+        <div class="input-group">
+          <label>Amount</label>
+          <div class="row">
+            <div class="currency-select" id="from-select">
+              <div class="select-trigger">
+                <img
+                  src="https://hatscripts.github.io/circle-flags/flags/us.svg"
+                  class="flag"
+                />
+                <span class="code">USD</span>
+                <span class="chevron">⌄</span>
+              </div>
+              <div class="dropdown">
+                <input
+                  type="text"
+                  class="search-box"
+                  placeholder="Search currency..."
+                />
+                <div class="options-list"></div>
+              </div>
+            </div>
+            <input type="number" id="amount-input" value="1000" />
+          </div>
+        </div>
+
+        <div class="swap-container">
+          <div class="line"></div>
+          <button id="swap-btn" class="swap-circle">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 18V6M9 6L5 10"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15 6V18M15 18L19 14"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="input-group">
+          <label>Converted Amount</label>
+          <div class="row">
+            <div class="currency-select" id="to-select">
+              <div class="select-trigger">
+                <img
+                  src="https://hatscripts.github.io/circle-flags/flags/sg.svg"
+                  class="flag"
+                />
+                <span class="code">SGD</span>
+                <span class="chevron">⌄</span>
+              </div>
+              <div class="dropdown">
+                <input
+                  type="text"
+                  class="search-box"
+                  placeholder="Search currency..."
+                />
+                <div class="options-list"></div>
+              </div>
+            </div>
+            <input type="text" id="result-input" readonly />
+          </div>
+        </div>
+      </div>
+
+      <div class="info-footer">
+        <div class="label">Indicative Exchange Rate</div>
+        <div class="rate" id="rate-display">Загрузка...</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
