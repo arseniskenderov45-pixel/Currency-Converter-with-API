@@ -4,6 +4,9 @@
 
 🚀 **Живое демо:** [Открыть сайт](https://arseniskenderov45-pixel.github.io/Currency-Converter-with-API/)
 
+[![Figma Design](https://www.figma.com/community/file/1215141639571590423/currency-converter)
+[![Presentation](https://www.canva.com/design/DAG71agjy98/5L3q1-WU5p-IuH9TQx-HZg/edit?utm_content=DAG71agjy98&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## ✨ Функционал
 
 * **Мгновенная конвертация:** Поддержка более 160 мировых валют.
@@ -29,5 +32,4 @@
 ├── script.js           # Логика и работа с API (JS)
 └── README.md           # Документация проекта
 
-[![Figma Design](https://www.figma.com/community/file/1215141639571590423/currency-converter)
-[![Presentation](https://www.canva.com/design/DAG71agjy98/5L3q1-WU5p-IuH9TQx-HZg/edit?utm_content=DAG71agjy98&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
