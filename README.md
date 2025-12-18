@@ -30,3 +30,4 @@
 └── README.md           # Документация проекта
 
 [![Figma Design](https://www.figma.com/community/file/1215141639571590423/currency-converter)
+[![Presentation](https://www.canva.com/design/DAG71agjy98/5L3q1-WU5p-IuH9TQx-HZg/edit?utm_content=DAG71agjy98&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
